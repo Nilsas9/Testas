@@ -15,14 +15,14 @@ public class Main {
             menu();
             line = sc.nextLine();
             all.userSelection(sc, line);
-        } while (!line.equals("3"));
+        } while (!line.equals("4"));
     }
     public static void menu() {
         System.out.println("""
                 [1]. Ivesti vartotoja
                 [2]. Patikrinti ar yra toks vartotojas
                 [3]. Atspausdinti visus vartotojus
-                [3]. Iseiti
+                [4]. Iseiti
                 """);
     }
 }
